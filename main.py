@@ -2,6 +2,7 @@ import discord
 import PIL.ImageGrab, PIL.ImageFile
 from discord import Webhook, RequestsWebhookAdapter
 import time
+import os
 
 ###     FOR THIS TO WORK, YOU **MUST** DO THE INSTALLS THAT ARE BELOW
 ###     pip3 install discord
